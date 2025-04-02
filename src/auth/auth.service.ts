@@ -1,5 +1,6 @@
 import { HttpStatus, Injectable } from '@nestjs/common';
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+// Suppression de l'import inutilisé
+// import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import {
   TAuth,
   TAuthTokenData,
